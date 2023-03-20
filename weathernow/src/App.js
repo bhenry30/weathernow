@@ -2,6 +2,7 @@ import './App.css';
 import UilReact from '@iconscout/react-unicons/icons/uil-react'
 import Search from './components/Search'
 import TimeLoc from './components/TimeLoc'
+import Temp from './components/Temp'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
     
         <Search />
         <TimeLoc />
+        <Temp />
     </div>
   );
 }
